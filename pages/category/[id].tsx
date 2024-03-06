@@ -9,7 +9,8 @@ import getCategory from '@/actions/get-category';
 import getSizes from '@/actions/get-sizes';
 import getColors from '@/actions/get-colors';
 
-import MobileFilters from '../../../components/cartegory/mobile-filters';
+import MobileFilters from '../../components/cartegory/mobile-filters';
+import { Filter } from 'lucide-react';
 
 export const revalidate = 0;
 
